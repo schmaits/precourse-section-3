@@ -1,0 +1,21 @@
+body {
+    background-color: #D1DBD6;
+}
+
+
+.jumbotron {
+    display: flex;
+    background-image: url('/Users/caitlinstansfield/Northcoders/precourse-section-3/images/Manchester Skyline.jpg');
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+  }
+
+  .jumbotron h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+  }
