@@ -1,7 +1,18 @@
 body {
-    background-color: #D1DBD6;
+    background-color: lightgrey;
 }
 
+nav {
+    font: Trebuchet MS;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    display: inline;
+    color: #fff;
+    margin-right: 20px;
+}
 
 .jumbotron {
     display: flex;
@@ -9,13 +20,47 @@ body {
     background-size: cover;
     color: #ffffff;
     height: 500px;
-  }
+}
 
-  .jumbotron h1 {
+.jumbotron h1 {
     font-size: 60px;
     font-weight: 700;
     margin-left: 20px;
     margin-top: 20px;
     color: #fff;
-    font-family: Verdana, Geneva, sans-serif;
-  }
+    font: Palatino;
+}
+
+.jumbotron h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 8px;
+    color: #fff;
+    font: Palatino;
+}
+
+.main {
+    background-color: white;
+}
+
+h3 {
+    font: Trebuchet MS;
+    font-size: 28px;
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+  
+p {
+    font: Trebuchet MS;
+    font-size: 16px;
+    text-align: justify;
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.end {
+    font-style: italic;
+}
