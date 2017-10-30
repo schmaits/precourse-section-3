@@ -40,29 +40,37 @@ header {
 
 .bulk {
     background-color: white;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 h3 {
     font: Palatino;
     font-size: 28px;
     margin: 20px;
+    padding-top: 20px;
     color: rgb(82, 80, 80);
 }
   
 p {
-    font: Trebuchet MS;
+    font: Arial;
     font-size: 16px;
     text-align: justify;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     color: rgb(82, 80, 80);
 }
 
 img {
-    max-width: 100%;
+   width: 100%;
+}
+
+figcaption {
+    font-style: italic;
+    font-size:10x;  
 }
 
 .end {
     font-style: italic;
+    padding-bottom: 10px;
 }
