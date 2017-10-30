@@ -2,17 +2,32 @@ body {
     background-color: lightgrey;
 }
 
-nav {
-    font: Trebuchet MS;
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-nav a {
-    display: inline;
-    color: #fff;
-    margin-right: 20px;
-}
+header {
+    padding: 10px;
+  }
+  
+  header .row{
+    display: flex;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-weight: 700;
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px grey;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header a {
+    padding: 0 20px;
+    margin: 0;
+    color: white;
+  }
 
 .jumbotron {
     display: flex;
@@ -22,43 +37,30 @@ nav a {
     height: 500px;
 }
 
-.jumbotron h1 {
-    font-size: 60px;
-    font-weight: 700;
-    margin-left: 20px;
-    margin-top: 20px;
-    color: #fff;
-    font: Palatino;
-}
 
-.jumbotron h2 {
-    font-size: 40px;
-    font-weight: 400;
-    margin-left: 20px;
-    margin-top: 8px;
-    color: #fff;
-    font: Palatino;
-}
-
-.main {
+.bulk {
     background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 h3 {
-    font: Trebuchet MS;
+    font: Palatino;
     font-size: 28px;
-    background-color: white;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: 20px;
+    color: rgb(82, 80, 80);
 }
   
 p {
     font: Trebuchet MS;
     font-size: 16px;
     text-align: justify;
-    background-color: white;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: 20px;
+    color: rgb(82, 80, 80);
+}
+
+img {
+    max-width: 100%;
 }
 
 .end {
