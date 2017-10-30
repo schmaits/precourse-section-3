@@ -1,7 +1,10 @@
-function = buttonColour(event){
-    event.target.style.color = "orange";
-    document.getElementById('submitbutton').removeEventListener('mouseover', buttonColour, false);
-}
 
-document.getElementById('submitbutton').addEventListener('mouseover', buttonColour, false);
 
+document.getElementById('submitbutton').addEventListener('mouseover', function(event){
+    event.target.style.color = "purple"
+});
+
+
+document.getElementById('submitbutton').addEventListener('mouseout', function(event){
+    event.target.style.color = 'black';
+});
