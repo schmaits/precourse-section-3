@@ -31,7 +31,7 @@ header {
 
 .jumbotron {
     display: flex;
-    background-image: url('schmaits.github.io/images/Manchester Skyline.jpg');
+    background-image: url('/Users/caitlinstansfield/Northcoders/precourse-section-3/images/Manchester Skyline.jpg');
     background-size: cover;
     color: #ffffff;
     height: 500px;
